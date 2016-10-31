@@ -1,4 +1,3 @@
-import re
 import json
 with open(r'./IMDb_data/IMDb2006-2015.json', 'r+') as f:
     movie_dict = json.load(f)
